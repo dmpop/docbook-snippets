@@ -1,7 +1,7 @@
 {
     "name": "docbook-snippets",
     "displayName": "DocBook snippets",
-    "description": "DockBook snippets for VSCodium and Visual Studio Code",
+    "description": "DocBook snippet extension",
     "version": "0.0.1",
     "publisher": "dmpop",
     "author": {
