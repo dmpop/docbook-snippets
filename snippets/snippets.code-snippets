@@ -1,0 +1,174 @@
+{
+ "DocBook Itemized List": {
+  "prefix": "dbil",
+  "body": [
+   "<itemizedlist>",
+   "<listitem>",
+   "<para>",
+   "$0",
+   "</para>",
+   "</listitem>",
+   "</itemizedlist>"
+  ],
+  "description": "DocBook Itemized list"
+ },
+ "DocBook Variable List": {
+  "prefix": "dbvarl",
+  "body": [
+   "<variablelist><title>$1</title>",
+   "<varlistentry>",
+   "<term>",
+   "$0",
+   "</term>",
+   "<listitem>",
+   "<para>",
+   "",
+   "</para>",
+   "</listitem>",
+   "</varlistentry>",
+   "</variablelist>"
+  ],
+  "description": "DocBook Variable List"
+ },
+ "DocBook Variable List Entry": {
+  "prefix": "dbvarle",
+  "body": [
+   "<varlistentry>",
+   "<term>",
+   "$0",
+   "</term>",
+   "<listitem>",
+   "<para>",
+   "",
+   "</para>",
+   "</listitem>",
+   "</varlistentry>",
+  ],
+  "description": "DocBook Variable List"
+ },
+ "DocBook List Item": {
+  "prefix": "dbli",
+  "body": [
+   "<listitem>",
+   "<para>",
+   "$0",
+   "</para>",
+   "</listitem>"
+  ],
+  "description": "DocBook List Item"
+ },
+ "DocBook URL": {
+  "prefix": "dburl",
+  "body": [
+   "<link xlink:href=\"$1\"></link>"
+  ],
+  "description": "DocBook URL"
+ },
+ "DocBook xref": {
+  "prefix": "dbxref",
+  "body": [
+   "<xref linkend=\"$1\" />"
+  ],
+  "description": "DocBook xref"
+ },
+ "DocBook Figure": {
+  "prefix": "dbfig",
+  "body": [
+   "<informalfigure>",
+   "<mediaobject>",
+   "<imageobject role=\"fo\">",
+   "<imagedata fileref=\"foo.png\" width=\"80%\" format=\"PNG\"/>",
+   "</imageobject>",
+   "<imageobject role=\"html\">",
+   "<imagedata fileref=\"foo.png\" width=\"100%\" format=\"PNG\"/>",
+   "</imageobject>",
+   "</mediaobject>",
+   "</informalfigure>"
+  ],
+  "description": "DocBook Figure"
+ },
+ "DocBook GUI Item": {
+  "prefix": "dbgui",
+  "body": [
+   "<menuchoice><guimenu>$0</guimenu></menuchoice>"
+  ],
+  "description": "DocBook GUI Item"
+ },
+ "DocBook Keys": {
+  "prefix": "dbkey",
+  "body": [
+   "<keycap>F</keycap>",
+   "<keycap function=\"enter\"/>",
+   "<keycombo><keycap function=\"control\"/><keycap>P</keycap></keycombo>"
+  ],
+  "description": "DocBook Keys"
+ },
+ "DocBook Procedure": {
+  "prefix": "dbproc",
+  "body": [
+   "<procedure>",
+   "<title>$1</title>",
+   "<step>",
+   "<para>",
+   "",
+   "</para>",
+   "</step>",
+   "</procedure>"
+  ],
+  "description": "DocBook Procedure"
+ },
+ "DocBook Procedure Step": {
+  "prefix": "dbpst",
+  "body": [
+   "<step>",
+   "<para>",
+   "$1",
+   "</para>",
+   "</step>"
+  ],
+  "description": "DocBook Procedure Step"
+ },
+ "DocBook Profile": {
+  "prefix": "dbprof",
+  "body": [
+   "<filename os=\"osuse\">openSUSE</filename><filename os=\"sles;sled\">$1</filename>"
+  ],
+  "description": "DocBook Profile"
+ },
+ "DocBook Note": {
+  "prefix": "dbn",
+  "body": [
+   "<note>",
+   "<title>$1</title>",
+   "<para>",
+   "",
+   "</para>",
+   "</note>"
+  ],
+  "description": "DocBook Procedure"
+ },
+ "DocBook Example": {
+  "prefix": "dbex",
+  "body": [
+   "<example>",
+   "<title>$1</title>",
+   "<screen>text <co xml:id=\"text\"/></screen>",
+   "<calloutlist>",
+   "<callout arearefs=\"text\">",
+   "<para>",
+   "Description",
+   "</para>",
+   "</callout>",
+   "</calloutlist>",
+   "</example>"
+  ],
+  "description": "DocBook Example"
+ },
+ "DocBook user": {
+  "prefix": "dbu",
+  "body": [
+   "<systemitem class='username'>$1</systemitem>"
+  ],
+  "description": "DocBook User"
+ }
+}

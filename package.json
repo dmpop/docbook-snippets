@@ -1,0 +1,29 @@
+{
+    "name": "docbook-snippets",
+    "displayName": "DocBook snippets",
+    "description": "DockBook snippets for VSCodium and Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "dmpop",
+    "author": {
+        "name": "Dmitri Popov"
+    },
+    "icon": "assets/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dmpop/docbook-snippets.git"
+    },
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "xml",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
