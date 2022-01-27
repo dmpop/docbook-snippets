@@ -1,7 +1,7 @@
 {
     "name": "docbook-snippets",
     "displayName": "DocBook snippets",
-    "description": "DocBook snippet extension",
+    "description": "DocBook as if by magic",
     "version": "0.0.1",
     "publisher": "dmpop",
     "author": {

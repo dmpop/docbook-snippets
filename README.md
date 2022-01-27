@@ -12,6 +12,11 @@ This simple extension is manna from heaven that makes working with DocBook less 
  - Brightens your day
  - Makes you a better person
 
+## Regulatory approval
+
+<img src="approved-by-laird.png" width=128 alt="Approved by Laird"/>
+
+Approved for use by the Laird of Glencoe and Kilnaish.
 ## Release notes
 
 Here is what's new.
