@@ -1,4 +1,4 @@
-# DocBook snippet extension
+# DocBook snippets extension
 
 <img src="canteven.png" width=128 alt="I can't even"/>
 
